@@ -1,0 +1,227 @@
+body {
+    font: "Montserrat", sans-serif;
+}
+
+h1, h2 ,h3, h4, h5, h6 {
+    font: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    font: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;   
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+/* margin-left: 30%; */
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+ /* z-index: 1;   */
+}
+
+.feature-title {
+    font-size: 1.5;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-colomn {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 25px;
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    color: #ff4c68;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+/* Buttons Color */
+
+.btn-outline-primary {
+    color: #ef8172;
+    border-color: #ef8172;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+.btn-primary {
+    color: #F8F6F0;
+    background-color: #ef8172;
+    border-color: #ef8172;
+}
+
+.btn-primary:hover {
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
